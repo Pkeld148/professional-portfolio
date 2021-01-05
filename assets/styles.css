@@ -4,19 +4,19 @@ body {
 }
 
 html {
-  /* Positioning */
   position: relative;
-
-  /* Box-model */
   min-height: 100%;
 }
 
-/* add space for fixed nav */
 main {
   margin: 80px 0;
 }
 
-/* create styles for use for all white main boxes */
+p {
+  font-size: ;
+  color: #08b9ff;
+}
+
 .block {
   background-color: #fff;
 
@@ -25,7 +25,6 @@ main {
 }
 
 .block-header {
-  /* Typography */
   color: #08b9ff;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
@@ -34,14 +33,11 @@ main {
 /* NAV START */
 #logo {
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
-  font-size: 24px;
+  font-size: 36px;
   font-weight: bold;
   color: rgb(17, 1, 109);
 
-  /* Visual */
-  /* background: #4aaaa5; */
+
 }
 
 /* override bootstrap hover color and border */
@@ -146,8 +142,20 @@ main {
 .port-image {
   margin: 20px auto;
 }
-/* END PORTFOLIO PAGE */
 
+#portfolio-area {
+  background-color: #000a1b;
+}
+
+#contact-area {
+  background-color: #020063;
+
+}
+
+.img-thumbnail {
+  background-color: #020063;
+  margin: 1em;
+}
 
 /* CONTACT FORM PAGE  */
 .form-control {
@@ -158,23 +166,3 @@ main {
   min-width: 100%;
   max-width: 100%;
 }
-
-.submit-btn {
-  /* Box-model */
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: lighter;
-
-  /* Typography */
-  color: #fff;
-
-  /* Visual */
-  background-color: #4aaaa5;
-  border: 0;
-}
-
-.submit-btn:hover {
-  opacity: .7;
-}
-
-/* END CONTACT FORM PAGE */
